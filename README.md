@@ -1,5 +1,7 @@
 # Next + TS + Tailwind
 
+[![CI](https://github.com/tkaeophian/nextjs-typescript-tailwind/actions/workflows/ci.yml/badge.svg)](https://github.com/tkaeophian/nextjs-typescript-tailwind/actions/workflows/ci.yml)
+
 A simple, scalable, and powerful architecture for building production ready React applications.
 
 ## Introduction
