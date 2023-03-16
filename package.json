@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "jest --watch",
     "prepare": "husky install",
     "prettier": "prettier --write \"**/*.+(js|json|ts|tsx)\"",
     "format": "npm run prettier -- --write",
@@ -24,17 +25,19 @@
     "prettier": "^2.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-error-boundary": "^3.1.4",
     "typescript": "5.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "autoprefixer": "^10.4.14",
     "eslint-config-prettier": "^8.7.0",
     "husky": "^8.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
-  },
-  "jest": {
-    "resetMocks": false
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
