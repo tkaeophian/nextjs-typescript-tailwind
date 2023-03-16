@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch",
+    "test": "jest",
     "prepare": "husky install",
     "prettier": "prettier --write \"**/*.+(js|json|ts|tsx)\"",
     "format": "npm run prettier -- --write",
