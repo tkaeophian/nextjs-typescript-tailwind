@@ -8,15 +8,16 @@ jest.mock('next/router', () => ({
     return {
       route: '/',
       locale: 'en',
-      locales: ['en', 'de'],
+      locales: ['en', 'th'],
     };
   },
 }));
 
 describe('Index page tests', () => {
   it('should render same text passed into title prop', () => {
+    const messages = require(`../../locales/en.json`);
     render(
-      <NextIntlProvider locale="en">
+      <NextIntlProvider locale="en" messages={messages}>
         <Index />
       </NextIntlProvider>
     );
