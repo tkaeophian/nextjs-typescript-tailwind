@@ -7,5 +7,5 @@ global.ResizeObserver = jest.fn().mockImplementation(() => ({
 }));
 // general cleanup
 afterEach(async () => {
-  console.log('after each')
+  console.log('after each');
 });
