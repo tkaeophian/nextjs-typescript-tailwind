@@ -34,7 +34,8 @@ This repo attempts to present a way of creating React applications using some of
 
 ### Table Of Contents
 
-[🔨 Best Practices](docs/best-practices.md)
+- [Best Practices](docs/best-practices.md)
+- [Folder Structures](https://github.com/tkaeophian/react-folder-structure)
 
 ### Why NextJs
 
