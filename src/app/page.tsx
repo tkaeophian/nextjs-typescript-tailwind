@@ -1,7 +1,13 @@
-import Image from 'next/image'
+import { Hero } from "@/features/home/Hero";
+import { ImageFeature } from "@/features/home/ImageFeature";
+import { TextFeature } from "@/features/home/TextFeature";
 
 export default function Home() {
   return (
-    <p>Hello World!</p>
-  )
+    <>
+      <Hero />
+      <TextFeature />
+      <ImageFeature />
+    </>
+  );
 }
