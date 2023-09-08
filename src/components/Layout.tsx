@@ -1,12 +1,15 @@
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Footer } from './Footer'
+import { Header } from './Header'
 
-export function Layout({ children }: any) {
+type LayoutProps = {
+  children: React.ReactNode
+}
+export function Layout({ children }: LayoutProps) {
   return (
     <div className="text-slate-800">
       <Header />
       <main>{children}</main>
       <Footer />
     </div>
-  );
+  )
 }
