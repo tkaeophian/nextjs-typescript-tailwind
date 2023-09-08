@@ -17,7 +17,7 @@ export function TextFeature() {
               data-nimg="1"
               className="relative w-full"
               sizes="100vw"
-              src="https://images.prismic.io/nextjs-starter-prismic-multi-language/18b3498f-9fbf-42cc-a362-d776fc55d85a_laptop_image.png?auto=compress%2Cformat&amp;fit=max&amp;w=3840"
+              src="laptop-image.avif"
             />
           </div>
           <div className="max-w-prose self-end leading-relaxed md:col-span-7">

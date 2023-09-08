@@ -16,7 +16,7 @@ export function ImageFeature() {
             data-nimg="1"
             className="relative w-full"
             sizes="100vw"
-            src="https://images.prismic.io/nextjs-starter-prismic-multi-language/6a6ca6ed-cf57-4444-9ed8-aec7c7d111d4_Light%402x.png?auto=compress%2Cformat&amp;fit=max&amp;w=3840"
+            src="todo-white.avif"
           />
         </div>
       </div>

@@ -23,7 +23,7 @@ export function Hero() {
               data-nimg="1"
               className="w-full"
               sizes="100vw"
-              src="https://images.prismic.io/nextjs-starter-prismic-multi-language/e08b85f5-0bb9-44d5-9a07-b9ccb8975456_10cc9671-43f6-4ac5-8320-3f9bc2314d2f_app-screen-dark.jpg?auto=compress%2Cformat&amp;rect=0%2C0%2C1228%2C545&amp;w=3840&amp;fit=max"
+              src="todo-unsplash.avif"
             />
           </div>
         </div>
