@@ -1,12 +1,12 @@
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 
-export function Layout({ locales, navigation, settings, children } : any) {
+export function Layout({ children }: any) {
   return (
     <div className="text-slate-800">
-      <Header locales={locales} navigation={navigation} settings={settings} />
+      <Header />
       <main>{children}</main>
-      <Footer settings={settings} />
+      <Footer />
     </div>
   );
 }
