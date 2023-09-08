@@ -1,5 +1,3 @@
-import '@testing-library/jest-dom/extend-expect'
-
 import { StateCreator, create as actualCreate } from 'zustand'
 
 import { act } from 'react-dom/test-utils'
