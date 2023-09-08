@@ -1,4 +1,9 @@
+import { useLocale } from "next-intl";
+
 export function Header({ locales = [], navigation, settings }: any) {
+  const locale = useLocale();
+  console.log(locale);
+
   return (
     <header data-collapsible="true" className="px-6 py-8 md:py-10">
       <div className="mx-auto w-full max-w-6xl">
@@ -25,20 +30,17 @@ export function Header({ locales = [], navigation, settings }: any) {
             <div className="flex flex-wrap gap-3">
               <span aria-hidden="true">🌐</span>
               <ul className="flex flex-wrap gap-3">
-                <li className="first:font-semibold">
+                <li className={locale == "en" ? "font-semibold" : ""}>
                   <a
                     aria-label="Change language to English - United States"
-                    href="/"
+                    href="/en"
                   >
                     EN
                   </a>
                 </li>
-                <li className="first:font-semibold">
-                  <a
-                    aria-label="Change language to French - France"
-                    href="/fr-fr"
-                  >
-                    FR
+                <li className={locale == "th" ? "font-semibold" : ""}>
+                  <a aria-label="Change language to French - France" href="/th">
+                    TH
                   </a>
                 </li>
               </ul>

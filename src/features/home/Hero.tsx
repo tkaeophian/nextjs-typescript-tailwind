@@ -1,4 +1,8 @@
+import { useTranslations } from "next-intl";
+
 export function Hero() {
+  const t = useTranslations("Index");
+
   return (
     <section
       data-collapsible="false"
@@ -8,7 +12,7 @@ export function Hero() {
         <div className="grid grid-cols-1 justify-items-center gap-10">
           <div className="max-w-2xl text-center leading-relaxed">
             <h1 className="font-semibold tracking-tighter text-5xl md:text-[5rem] mb-6 last:mb-0">
-              Keep your life organized
+              {t("title")}
             </h1>
             <p className="mb-6 last:mb-0">
               Life can feel overwhelming, but it doesn’t have to. Todoop lets
