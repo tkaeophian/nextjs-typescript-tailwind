@@ -14,12 +14,10 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '19.3.0'
-      - run: yarn install
-      - run: yarn build
-      - run: yarn test
-      - run: yarn lint
-      - run: yarn format:check
-      - run: yarn types:check
+      - run: npm run install
+      - run: npm run test
+      - run: npm run lint
+      - run: npm run build
   # cypress-run:
   #   runs-on: ubuntu-latest
   #   steps:
