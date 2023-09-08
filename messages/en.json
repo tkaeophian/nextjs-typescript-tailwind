@@ -1,5 +1,10 @@
 {
   "Index": {
-    "title": "Keep your life organized"
+    "title": "Keep your life organized",
+    "about": "Life can feel overwhelming, but it doesn’t have to. NextTodo lets you keep track of everything in one place, so you can get it all done and enjoy more peace of mind along the way."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About"
   }
 }

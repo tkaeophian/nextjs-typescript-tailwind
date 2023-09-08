@@ -14,11 +14,7 @@ export function Hero() {
             <h1 className="font-semibold tracking-tighter text-5xl md:text-[5rem] mb-6 last:mb-0">
               {t("title")}
             </h1>
-            <p className="mb-6 last:mb-0">
-              Life can feel overwhelming, but it doesn’t have to. Todoop lets
-              you keep track of everything in one place, so you can get it all
-              done and enjoy more peace of mind along the way.
-            </p>
+            <p className="mb-6 last:mb-0">{t("about")}</p>
           </div>
           <div className="w-full">
             <img

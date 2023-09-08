@@ -1,8 +1,8 @@
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
-export function Header({ locales = [], navigation, settings }: any) {
+export function Header() {
   const locale = useLocale();
-  console.log(locale);
+  const t = useTranslations("Navigation");
 
   return (
     <header data-collapsible="true" className="px-6 py-8 md:py-10">
@@ -15,16 +15,16 @@ export function Header({ locales = [], navigation, settings }: any) {
               height="20"
               decoding="async"
               data-nimg="1"
-              src="https://nextjs-starter-prismic-multi-language.cdn.prismic.io/nextjs-starter-prismic-multi-language/6c67f91c-ab42-4a3c-9073-0d459633b489_logo.svg?fit=max&amp;w=384"
+              src="/logo.svg"
             />
           </a>
           <nav className="flex flex-wrap items-center gap-x-6 gap-y-3 md:gap-x-10">
             <ul className="flex flex-wrap gap-6 md:gap-10">
               <li className="font-semibold tracking-tight text-slate-800">
-                <a href="/">Home</a>
+                <a href="/">{t("home")}</a>
               </li>
               <li className="font-semibold tracking-tight text-slate-800">
-                <a href="/about">About</a>
+                <a href="/about">{t("about")}</a>
               </li>
             </ul>
             <div className="flex flex-wrap gap-3">
