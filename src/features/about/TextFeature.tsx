@@ -1,4 +1,5 @@
-import { Bounded } from "@/components/Bounded";
+import { Bounded } from '@/components/Bounded'
+import Image from 'next/image'
 
 export function TextFeature() {
   return (
@@ -9,7 +10,7 @@ export function TextFeature() {
             <div className="absolute -left-6 -top-6 w-2/3">
               <div className="aspect-h-1 aspect-w-1 bg-slate-100/50"></div>
             </div>
-            <img
+            <Image
               loading="lazy"
               width="912"
               height="1214"
@@ -17,7 +18,8 @@ export function TextFeature() {
               data-nimg="1"
               className="relative w-full"
               sizes="100vw"
-              src="laptop-image.avif"
+              alt="Demo"
+              src="/laptop-image.avif"
             />
           </div>
           <div className="max-w-prose self-end leading-relaxed md:col-span-7">
@@ -38,5 +40,5 @@ export function TextFeature() {
         </div>
       </div>
     </Bounded>
-  );
+  )
 }

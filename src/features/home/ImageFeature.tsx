@@ -1,4 +1,5 @@
-import { Bounded } from "@/components/Bounded";
+import { Bounded } from '@/components/Bounded'
+import Image from 'next/image'
 
 export function ImageFeature() {
   return (
@@ -8,7 +9,7 @@ export function ImageFeature() {
           <div className="absolute -left-4 -top-4 w-1/3">
             <div className="aspect-h-1 aspect-w-1 bg-slate-200/50"></div>
           </div>
-          <img
+          <Image
             loading="lazy"
             width="2256"
             height="1252"
@@ -16,10 +17,11 @@ export function ImageFeature() {
             data-nimg="1"
             className="relative w-full"
             sizes="100vw"
-            src="todo-white.avif"
+            src="/todo-white.avif"
+            alt="Demo"
           />
         </div>
       </div>
     </Bounded>
-  );
+  )
 }

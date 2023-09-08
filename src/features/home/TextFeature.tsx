@@ -1,4 +1,5 @@
-import { Bounded } from "@/components/Bounded";
+import { Bounded } from '@/components/Bounded'
+import Image from 'next/image'
 
 export function TextFeature() {
   return (
@@ -6,13 +7,14 @@ export function TextFeature() {
       <div className="mx-auto w-full max-w-6xl">
         <div className="grid grid-cols-1 items-end gap-10 md:grid-cols-2 md:gap-10 lg:gap-28">
           <div className="grid grid-cols-1 gap-8">
-            <img
+            <Image
               loading="lazy"
               width="128"
               height="128"
               decoding="async"
               data-nimg="1"
-              src="https://nextjs-starter-prismic-multi-language.cdn.prismic.io/nextjs-starter-prismic-multi-language/e51512e0-c8b8-40ee-8756-1abd492cd634_Icon.svg?fit=max&amp;w=256"
+              alt="Demo"
+              src="/icon.svg"
             />
             <div className="leading-relaxed">
               <h2 className="font-semibold tracking-tighter text-4xl md:text-6xl mb-4 last:mb-0">
@@ -61,5 +63,5 @@ export function TextFeature() {
         </div>
       </div>
     </Bounded>
-  );
+  )
 }
