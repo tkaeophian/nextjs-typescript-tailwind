@@ -1,9 +1,8 @@
+import { Bounded } from "@/components/Bounded";
+
 export function ImageFeature() {
   return (
-    <section
-      data-collapsible="true"
-      className="px-6 py-20 md:py-32 bg-slate-100"
-    >
+    <Bounded as="section" className="bg-slate-100">
       <div className="mx-auto w-full max-w-6xl">
         <div className="relative">
           <div className="absolute -left-4 -top-4 w-1/3">
@@ -21,6 +20,6 @@ export function ImageFeature() {
           />
         </div>
       </div>
-    </section>
+    </Bounded>
   );
 }

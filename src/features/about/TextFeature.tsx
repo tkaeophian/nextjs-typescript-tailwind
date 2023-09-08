@@ -1,6 +1,8 @@
+import { Bounded } from "@/components/Bounded";
+
 export function TextFeature() {
   return (
-    <section data-collapsible="true" className="px-6 py-20 md:py-32 bg-white">
+    <Bounded collapsible={false} as="section" className="bg-white">
       <div className="mx-auto w-full max-w-6xl">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-12 md:gap-16">
           <div className="relative max-w-xs md:col-span-5 md:max-w-none">
@@ -20,7 +22,7 @@ export function TextFeature() {
           </div>
           <div className="max-w-prose self-end leading-relaxed md:col-span-7">
             <h2 className="font-semibold tracking-tighter text-4xl md:text-6xl mb-8 last:mb-0">
-              The future of Todoop application
+              The future of NEXT todo application
             </h2>
             <h3 className="font-semibold tracking-tighter text-2xl mb-2 last:mb-0">
               Life can feel overwhelming, but it doesn’t have to. Todoist lets
@@ -35,6 +37,6 @@ export function TextFeature() {
           </div>
         </div>
       </div>
-    </section>
+    </Bounded>
   );
 }

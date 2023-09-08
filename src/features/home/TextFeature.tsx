@@ -1,9 +1,8 @@
+import { Bounded } from "@/components/Bounded";
+
 export function TextFeature() {
   return (
-    <section
-      data-collapsible="false"
-      className="px-6 py-20 md:py-32 bg-slate-100"
-    >
+    <Bounded collapsible={false} as="section" className="bg-slate-100">
       <div className="mx-auto w-full max-w-6xl">
         <div className="grid grid-cols-1 items-end gap-10 md:grid-cols-2 md:gap-10 lg:gap-28">
           <div className="grid grid-cols-1 gap-8">
@@ -17,7 +16,7 @@ export function TextFeature() {
             />
             <div className="leading-relaxed">
               <h2 className="font-semibold tracking-tighter text-4xl md:text-6xl mb-4 last:mb-0">
-                The future of Todoop application
+                The future of NEXT todo application
               </h2>
               <p className="mb-7 last:mb-0">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
@@ -61,6 +60,6 @@ export function TextFeature() {
           </ul>
         </div>
       </div>
-    </section>
+    </Bounded>
   );
 }

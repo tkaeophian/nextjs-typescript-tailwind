@@ -1,11 +1,13 @@
 import { useLocale, useTranslations } from "next-intl";
 
+import { Bounded } from "./Bounded";
+
 export function Header() {
   const locale = useLocale();
   const t = useTranslations("Navigation");
 
   return (
-    <header data-collapsible="true" className="px-6 py-8 md:py-10">
+    <Bounded as="header" yPadding="sm">
       <div className="mx-auto w-full max-w-6xl">
         <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 leading-none">
           <a href="/">
@@ -48,6 +50,6 @@ export function Header() {
           </nav>
         </div>
       </div>
-    </header>
+    </Bounded>
   );
 }
