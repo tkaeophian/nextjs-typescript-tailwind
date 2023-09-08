@@ -14,7 +14,7 @@ export function TextFeature() {
               decoding="async"
               data-nimg="1"
               alt="Demo"
-              src="/icon.svg"
+              src="/Icon.svg"
             />
             <div className="leading-relaxed">
               <h2 className="font-semibold tracking-tighter text-4xl md:text-6xl mb-4 last:mb-0">
