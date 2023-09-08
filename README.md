@@ -1,12 +1,12 @@
-# Next + TS + Tailwind
+# Next13 (App Router) + TS + Tailwind
 
 [![CI](https://github.com/tkaeophian/nextjs-typescript-tailwind/actions/workflows/ci.yml/badge.svg)](https://github.com/tkaeophian/nextjs-typescript-tailwind/actions/workflows/ci.yml)
 
-A simple, scalable, and powerful architecture for building production ready React applications.
+🚀 A boilerplate and Starter for Next.js with App Router simple, scalable, and powerful architecture for building production ready React applications.
 
 ### Requirements
 
-- Node.js 14+ and npm
+- Node.js 16+ and npm
 
 ### Getting started
 
@@ -30,8 +30,6 @@ React is an excellent tool for building front-end applications. It has a diverse
 
 This repo attempts to present a way of creating React applications using some of the best tools in the ecosystem with a good project structure that scales very well. Based on my vast experience working with different codebases, this architecture turns out to be the most effective.
 
-<img SRC="https://ik.imagekit.io/xbqs6c3wef/pitchfork__1__QXL1n_H9u.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678482974836" />
-
 ### Table Of Contents
 
 - [Best Practices](docs/best-practices.md)
@@ -45,6 +43,17 @@ Whether you want to create static pages, e-commerce applications, or fetch data 
 
 This is the main advantage of Next.js. Once you install it, you can start creating fast production-ready applications.
 
+Features:
+
+- ✅ Integrate with Tailwind CSS
+- ✅ Form with React Hook From
+- ✅ Validation library with Zod
+- ✅ Code Formatter with Prettier
+- ✅ Husky for Git Hooks
+- ✅ Unit Testing with Jest and React Testing Library
+- ✅ Absolute Imports using @ prefix
+- ✅ Zustand as state managment
+
 Built-in feature from Next.js:
 
 - ☕ Minify HTML & CSS
@@ -57,6 +66,7 @@ Built-in feature from Next.js:
 - 🚀 Production-ready
 
 ### Why Typescript
+
 TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces. One of the big benefits is to enable IDEs to provide a richer environment for spotting common errors as you type the code.
 
 TypeScript extends JavaScript and improves the developer experience. It enables developers to add type safety to their projects. Moreover, TypeScript provides various other features, like interfaces, type aliases, abstract classes, function overloading, tuple, generics, etc

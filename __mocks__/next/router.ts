@@ -2,5 +2,9 @@
 export const useRouter = () => {
   return {
     basePath: '.',
-  };
-};
+    route: '/',
+    pathname: '',
+    query: '',
+    asPath: '',
+  }
+}
